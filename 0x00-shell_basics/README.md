@@ -1,1 +1,1 @@
-create symbolic link in current directory
+move all files beginning with an uppercase
