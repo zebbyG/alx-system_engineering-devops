@@ -1,1 +1,1 @@
-print iamafile
+create symbolic link in current directory
