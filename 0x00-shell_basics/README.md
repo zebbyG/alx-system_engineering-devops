@@ -1,1 +1,1 @@
-Display current directory contents including hidden files
+create a directory named my_first_directory
