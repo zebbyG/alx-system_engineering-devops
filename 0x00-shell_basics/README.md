@@ -1,1 +1,1 @@
-delete my_first directory
+change directory to previous one
