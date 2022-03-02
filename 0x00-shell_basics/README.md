@@ -1,1 +1,1 @@
-create a directory named my_first_directory
+move file betty to my_first_directory
