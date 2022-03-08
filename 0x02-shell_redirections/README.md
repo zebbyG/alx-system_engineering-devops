@@ -25,7 +25,7 @@ Tasks 📃
 6-third_line: Bash script that displays the third line of the file iacta.
 7. It is a good file that cuts iron without making a noise
 
-7-file: Bash script that creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line.
+7-file: Bash script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 8. Save current state of directory
 
 8-cwd_state: Bash script that writes into the file ls_cwd_content the result of the command ls -la.
