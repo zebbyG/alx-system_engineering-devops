@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# displaying "Best School" 10 times
+z=0
+until [ $z -eq 10 ]
+do
+	echo "Best School"
+	z=$(( z + 1 ))
+done
