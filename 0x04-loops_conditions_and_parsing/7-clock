@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-#print hours and minutes
+#print 1 hours after every 60 minutes
 
 hour=0
 while [ $hour -le 12 ]
 do
     echo "Hour: $hour";
     minute=1;
-    while [ $minute -lt 60 ]
+    while [ $minute -lt 59 ]
     do
         echo "$minute";
         minute=$((minute + 1));
