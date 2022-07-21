@@ -3,11 +3,11 @@
 #	displays 4 and then bad luck from China for the 4th loop iteration
 #	displays 9 and then bad luck from Japan for the 9th loop iteration
 #	displays 17 and then bad luck from Italy for the 17th loop iteration
-i=1
-while [ $i -le 20 ]
+z=1
+while [ $z -le 20 ]
 do
-	echo $i
-	case $i in
+	echo $z
+	case $z in
 		4)echo "bad luck from China"
 		;;
 
@@ -18,5 +18,5 @@ do
 		;;
 
 	esac
-	i=$(( i + 1 ))
+	z=$(( z + 1 ))
 done
