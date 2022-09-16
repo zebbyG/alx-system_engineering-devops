@@ -1,6 +1,5 @@
 # install flask from pip3
 package { 'flask':
-  ensure   => 'installed',
-  provider => 'pip3',
+  ensure => 'installed',
+  source => 'pip3',
 }
-
