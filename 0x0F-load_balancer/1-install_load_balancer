@@ -9,8 +9,8 @@ echo  "
 listen 20205-lb-01
 	bind *:80
 	balance roundrobin 
-	server 11916-web-01 35.173.35.145 check 
-    server 11916-zebbyG-02 44.200.109.147 check
+	server 20205-web-01 44.192.38.3 check 
+    server 20205-web-02 3.239.82.120 check
 " | sudo tee -a /etc/haproxy/haproxy.cfg
 
 sudo service haproxy restart
