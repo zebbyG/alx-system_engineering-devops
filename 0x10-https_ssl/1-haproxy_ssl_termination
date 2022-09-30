@@ -14,13 +14,12 @@ defaults
     timeout client  10000
     timeout server  10000
 listen hbnb
-    bind 0.0.0.0:80
+    bind 0.0.0.0:443
     mode http
     stats enable
     stats uri /haproxy?stats
     balance roundrobin
     option httpclose
     option forwardfor
-    server 11916-web-01 35.173.35.145 check
-    server 11916-web-02 44.200.109.147 check
-~                                            
+    server 11916-web-01 35.173.35.145:80 check
+    server 11916-web-02 44.200.109.147:80 check
