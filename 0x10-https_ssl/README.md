@@ -17,4 +17,4 @@ Files | Description
 - sed -i "/listen 80 default_server;/a add_header X-Served-By $hostname;" /etc/nginx/sites-available/default
 - service nginx start
 
-<a href-"https://github.com/zebbyG?tab=repositories">zebbyG</a>
+<a href="https://github.com/zebbyG?tab=repositories">zebbyG</a>
