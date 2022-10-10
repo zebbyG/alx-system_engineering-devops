@@ -7,4 +7,4 @@ Files | Description
 [1-run_nginx_as_nginx](./1-run_nginx_as_nginx) | Bash script that configures a container so that: nginx must be running as nginx user, nginx must be listening on all active IPs on port 8080
 [100-fix_in_7_lines_or_less](./100-fix_in_7_lines_or_less) | Bash script doing the same thing as 1-run_nginx_as_nginx but in 7 lines
 
-`Author` | `<a href="https://github.com/zebbyG?tab=repositories">zebbyG</a>`
+`Author` | <a href="https://github.com/zebbyG?tab=repositories">zebbyG</a>
