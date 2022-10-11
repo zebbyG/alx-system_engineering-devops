@@ -9,11 +9,12 @@ Files | Description
 [100-redirect_http_to_https](./100-redirect_http_to_https) | HAproxy configuration file to automatically redirect HTTP traffic to HTTPS
 
 # Configures a new Ubuntu server with a custom HTTP header response
-apt-get -y update
-apt-get -y install nginx
-ufw allow "Nginx HTTP"
-echo "Hello World!" > /var/www/html/index.nginx-debian.html
-sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default
-sed -i "/listen 80 default_server;/a add_header X-Served-By $hostname;" /etc/nginx/sites-available/default
-service nginx start
+- apt-get -y update
+- apt-get -y install nginx
+- ufw allow "Nginx HTTP"
+- echo "Hello World!" > /var/www/html/index.nginx-debian.html
+- sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default
+- sed -i "/listen 80 default_server;/a add_header X-Served-By $hostname;" /etc/nginx/sites-available/default
+- service nginx start
 
+<a href="https://github.com/zebbyG?tab=repositories">zebbyG</a>
